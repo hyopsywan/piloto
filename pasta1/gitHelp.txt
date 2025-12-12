@@ -1,0 +1,37 @@
+Comandos git: 
+
+git init
+#Cria um novo repositório Git em um diretório (pasta) atual ou em um especificado.
+
+git add .
+#Adiciona todas as alterações do working directory (diretório de trabalho) ao staging área(área de preparação) no Git.
+
+git commit -m “mensagem”
+#Cria uma mensagem de confirmação especificada para alteração adicionada.
+
+gitlog
+#Exibe o histórico de commits, do mais recente , até o mais antigo
+
+git status
+#Exibe informações como arquivos modificados, arquivos que foram removidos, entre outros...
+
+git reset --hard HEAD~1
+#Desfaz o último commit e atualiza o estado do repositório para refletir o commit anterior.
+
+git remote add origin https://github.com...
+#Conecta o repositorio Git com o repositório remoto indicando por uma URL.
+
+git push u origin main
+#Envia as alterações do repositório local para o repositório remoto, forçando uma criação de uma branch main , caso tenha a branch , não cria.
+
+git clone https://github.com...
+#Cria uma cópia de um repositório Git remoto em seu computador
+
+git pull
+#Atualiza o repositório local conforme as alterações feitas no repositório remoto
+
+git push origin main
+#Envia os commits local, para o repositório remoto , da branch
+
+git show 010101
+#Mostra mais detalhes do commit.
