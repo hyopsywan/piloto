@@ -1,0 +1,17 @@
+git init
+#Cria um novo repositório Git em um diretório (pasta) atual ou em um especificado.
+
+git add .
+#Adiciona todas as alterações do working directory (diretório de trabalho) ao staging área(área de preparação) no Git.
+
+git commit -m “mensagem”
+#Cria uma mensagem de confirmação especificada para alteração adicionada.
+
+git branch -M main
+#Muda o nome da branch principal para main.
+
+git remote add origin https://github.com...
+#Conecta o repositorio Git com o repositório remoto indicando por uma URL.
+
+git push u origin main
+#Envia as alterações do repositório local para o repositório remoto, forçando uma criação de uma branch main, caso a branch já exista, não será criado.
