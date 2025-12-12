@@ -1,0 +1,14 @@
+git clone https://github.com...
+#Cria uma cópia de um repositório Git remoto em seu computador
+
+git add .
+#Adiciona todas as alterações do working directory (diretório de trabalho) ao staging área(área de preparação) no Git.
+
+git status
+#Exibe informações como arquivos modificados, arquivos que foram removidos, entre outros...
+
+git commit -m “mensagem”
+#Cria uma mensagem de confirmação especificada para alteração adicionada.
+
+git push origin main
+#Envia os commits local, para o repositório remoto, da branch main
